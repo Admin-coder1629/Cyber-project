@@ -4,17 +4,17 @@
   box-sizing: border-box;
 }
 
-/* ================= BODY ================= */
+/* ===== BODY ===== */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.7;
-  color: #e0e0e0;
-  background-color: #0f172a; /* Deep navy */
+  background-color: #0b0f19;
+  color: #e5e7eb;
 }
 
-/* ================= NAVBAR ================= */
+/* ===== NAVBAR ===== */
 .navbar {
-  background-color: #020617; /* Almost black */
+  background-color: #020617;
   padding: 1rem 0;
   border-bottom: 2px solid #1e293b;
   position: sticky;
@@ -29,12 +29,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .nav-container h2 {
-  color: #f8fafc;
-  font-size: 1.7rem;
+  color: #38bdf8;
+  font-size: 1.6rem;
   font-weight: bold;
 }
 
@@ -55,68 +54,60 @@ body {
   font-weight: bold;
 }
 
-.nav-menu a:hover {
-  background-color: #334155;
-}
-
-/* ================= CONTAINER ================= */
+/* ===== CONTAINER ===== */
 .container {
   max-width: 1050px;
   margin: 0 auto;
   padding: 2.5rem 1rem;
 }
 
-/* ================= MAIN HEADER ================= */
+/* ===== MAIN HEADER ===== */
 .main-header {
   text-align: center;
   margin-bottom: 3rem;
   background-color: #020617;
   padding: 2.5rem;
-  border-radius: 14px;
-  border: 2px solid #1e293b;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+  border-radius: 12px;
+  border: 1px solid #1e293b;
 }
 
 .main-header h1 {
   font-size: 2.7rem;
-  color: #e5e7eb;
+  color: #facc15;
   margin-bottom: 1rem;
 }
 
 .subtitle {
   font-size: 1.1rem;
   color: #94a3b8;
-  font-weight: bold;
 }
 
-/* ================= PAGE HEADER ================= */
+/* ===== PAGE HEADER ===== */
 .page-header {
   text-align: center;
   margin-bottom: 2rem;
   background-color: #020617;
   padding: 1.8rem;
-  border-radius: 14px;
-  border: 2px solid #1e293b;
-  box-shadow: 0 6px 14px rgba(0,0,0,0.6);
+  border-radius: 12px;
+  border: 1px solid #1e293b;
 }
 
 .page-header h1 {
   font-size: 2.3rem;
-  color: #f1f5f9;
+  color: #38bdf8;
 }
 
-/* ================= CONTENT SECTIONS ================= */
+/* ===== CONTENT SECTIONS ===== */
 .content-section {
   background-color: #020617;
   margin-bottom: 2rem;
   padding: 1.9rem;
-  border-radius: 14px;
+  border-radius: 12px;
   border: 1px solid #1e293b;
-  box-shadow: 0 6px 14px rgba(0,0,0,0.6);
 }
 
 .content-section h2 {
-  color: #38bdf8; /* classy blue */
+  color: #facc15;
   margin-bottom: 1rem;
   font-size: 1.6rem;
   border-bottom: 2px solid #1e293b;
@@ -132,27 +123,25 @@ body {
 
 .content-section ul {
   margin-left: 1.5rem;
-  margin-bottom: 1rem;
   color: #e5e7eb;
 }
 
-/* ================= INTRO SECTION ================= */
+/* ===== INTRO SECTION ===== */
 .intro-section {
   background-color: #020617;
   padding: 2.2rem;
-  border-radius: 14px;
-  border: 2px solid #1e293b;
+  border-radius: 12px;
+  border: 1px solid #1e293b;
   margin-bottom: 2rem;
-  box-shadow: 0 6px 14px rgba(0,0,0,0.6);
 }
 
 .intro-section h2 {
-  color: #facc15; /* soft gold */
+  color: #38bdf8;
   margin-bottom: 1rem;
   font-size: 2rem;
 }
 
-/* ================= TOPIC CARDS ================= */
+/* ===== TOPIC CARDS ===== */
 .topics-grid h2 {
   text-align: center;
   color: #facc15;
@@ -169,9 +158,8 @@ body {
 .topic-card {
   background-color: #020617;
   padding: 1.9rem;
-  border-radius: 16px;
-  border: 2px solid #1e293b;
-  box-shadow: 0 8px 18px rgba(0,0,0,0.7);
+  border-radius: 14px;
+  border: 1px solid #1e293b;
   text-align: center;
 }
 
@@ -192,20 +180,16 @@ body {
   color: white;
   padding: 0.8rem 2rem;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 6px;
   font-weight: bold;
   border: 1px solid #334155;
 }
 
-.topic-links:hover {
-  background-color: #334155;
-}
-
-/* ================= EXAMPLE + SAFETY ================= */
+/* ===== EXAMPLES & SAFETY ===== */
 .example-box {
   background-color: #0f172a;
   padding: 1.2rem;
-  border-radius: 10px;
+  border-radius: 8px;
   border-left: 4px solid #38bdf8;
   margin-bottom: 1rem;
 }
@@ -213,11 +197,11 @@ body {
 .safety-tips {
   background-color: #0f172a;
   padding: 1.2rem;
-  border-radius: 10px;
+  border-radius: 8px;
   border-left: 4px solid #facc15;
 }
 
-/* ================= HOME BUTTON ================= */
+/* ===== HOME BUTTON ===== */
 .home-button-container {
   text-align: center;
   margin-top: 3rem;
@@ -229,17 +213,13 @@ body {
   color: white;
   padding: 1.1rem 2.3rem;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 6px;
   font-size: 1.2rem;
   font-weight: bold;
-  border: 2px solid #334155;
+  border: 1px solid #334155;
 }
 
-.home-button:hover {
-  background-color: #334155;
-}
-
-/* ================= FOOTER ================= */
+/* ===== FOOTER ===== */
 .footer {
   background-color: #020617;
   text-align: center;
@@ -254,7 +234,7 @@ body {
   font-size: 1.1rem;
 }
 
-/* ================= MOBILE ================= */
+/* ===== MOBILE ===== */
 @media (max-width: 768px) {
   .nav-container {
     flex-direction: column;
